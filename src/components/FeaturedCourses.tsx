@@ -5,7 +5,7 @@ import courseData from "../data/music-courses.json";
 import Link from "next/link";
 import { BackgroundGradient } from "./ui/background-gradient";
 
-interface ICourse {
+export interface ICourse {
   id: number;
   title: string;
   slug: string;
